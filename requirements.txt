@@ -1,0 +1,5 @@
+ctransformers==0.2.5         # This package is helpfull for Loding the "Quantize" model using Langchain.
+sentence-transformers==2.2.2 # Embadding model from "HuggingFace"
+pinecone-client              # Pinecone Vector DB to store "Knowledge base" and "semantic index"
+langchain==0.0.225           # Langframe work for LLM 
+flask                        # Web app/ API creation
