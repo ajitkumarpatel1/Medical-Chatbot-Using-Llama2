@@ -8,14 +8,14 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 list_of_files = [
     "src/__init__.py",             # This files helps to make Src as a local package
-    "src/helper.py",               # 
-    "src/prompt.py",
+    "src/helper.py",               # This contain all the code related to "Data injection" component
+    "src/prompt.py",               # This contain the Promtemplate for instruction LLM model.
     ".env",                        # This file contain all the Crediential (uid, password)
     "setup.py",                    # This file trigger the requirements.txt and make src file as a local packages 
     "research/trials.ipynb",       # This file contain all the R&D notebook and files
-    "app.py",                      # 
-    "store_index.py",              #
-    "static/.gitkeep",             #
+    "app.py",                      # This file contain all the code related to "Flask" for web-ui development
+    "store_index.py",              # This file contain all the code for Push the embeding vector to Vector DB
+    "static/style.css",             # This file contail the css code web app
     "templates/chat.html"          # This file contain the HTML for web app
 
 ]
