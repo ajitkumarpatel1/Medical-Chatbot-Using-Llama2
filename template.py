@@ -11,7 +11,7 @@ list_of_files = [
     "src/helper.py",               # 
     "src/prompt.py",
     ".env",                        # This file contain all the Crediential (uid, password)
-    "setup.py",                    # This file trigger the requirements.txt and src file
+    "setup.py",                    # This file trigger the requirements.txt and make src file as a local packages 
     "research/trials.ipynb",       # This file contain all the R&D notebook and files
     "app.py",                      # 
     "store_index.py",              #

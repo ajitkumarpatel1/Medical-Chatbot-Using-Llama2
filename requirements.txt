@@ -8,3 +8,5 @@ flask                        # Web app/ API creation
 
 ipykernel                    # jupyter notebook extension to run ipynb file 
 pypdf                        # Python modeule to load PDF file
+
+-e .                         # to install the setup the setup.py file
