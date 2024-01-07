@@ -42,6 +42,27 @@ conda activate mchatbot
 pip install -r requirements.txt
 ```
 
+7. **Create a `.env` file in the root directory and add your Pinecone credentials as follows:**
+
+```ini
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+**run the following command:**
+```bash
+python store_index.py
+```
+
+8. **Finally run the following command**
+```bash
+python app.py
+```
+
+9. **open up localhost:**
+```bash
+open up localhost:
+```
+
 
 
 

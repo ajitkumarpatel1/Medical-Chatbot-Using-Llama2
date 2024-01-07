@@ -54,12 +54,12 @@ def index():
 
 @app.route("/get", methods=["GET", "POST"])
 def chat():
-    msg = request.form["msg"]
-    input = msg
-    print(input)
-    result=qa({"query": input})
-    print("Response : ", result["result"])
-    return str(result["result"])
+    msg = request.form["msg"]                # it collect the message from web ui
+    input = msg                              # saving that message in "input" variable
+    print(input)                             # printing the meassage in the terminal 
+    result=qa({"query": input})              # also giving the message to the llm
+    print("Response : ", result["result"])   # printing the response in the terminal 
+    return str(result["result"])             # printing the response in the WEB-UI 
 
 
 
